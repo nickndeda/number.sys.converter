@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="com.ndedatech.nconverter" version="1.0.0">
+  <name>Number System Converter</name>
+  <description>Convert between Binary, Octal, Decimal and Hexadecimal numbers. Built with Monaca.</description>
+  <author email="ndedanick35@gmail.com">Nick Ndeda – Ndeda Tech Solutions</author>
+  <content src="index.html"/>
+  <allow-navigation href="*"/>
+  <preference name="loglevel" value="DEBUG"/>
+  <preference name="AndroidLaunchMode" value="singleTop"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="FadeSplashScreen" value="true"/>
+  <preference name="FadeSplashScreenDuration" value="300"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <platform name="android">
+    <icon src="res/android/icon/ldpi.png" density="ldpi"/>
+    <icon src="res/android/icon/mdpi.png" density="mdpi"/>
+    <icon src="res/android/icon/hdpi.png" density="hdpi"/>
+    <icon src="res/android/icon/xhdpi.png" density="xhdpi"/>
+    <icon src="res/android/icon/xxhdpi.png" density="xxhdpi"/>
+    <icon src="res/android/icon/xxxhdpi.png" density="xxxhdpi"/>
+    <preference name="AndroidWindowSplashScreenBackground" value="#ffffff"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/android/screen/window_splashscreen_icon.png"/>
+  </platform>
+  <platform name="ios">
+    <preference name="orientation" value="portrait"/>
+    <icon src="res/ios/icon/icon.png" width="57" height="57"/>
+    <icon src="res/ios/icon/icon@2x.png" width="114" height="114"/>
+    <splash src="res/ios/screen/Default@2x~universal~anyany.png"/>
+  </platform>
+  <preference name="WindowsStorePublisherName" value="My Name"/>
+  <preference name="WindowsStoreIdentityName" value="88d15a47-757f-fd19-294b-e6d005fde6c7"/>
+  <access origin="*"/>
+  <preference name="KeepRunning" value="true"/>
+  <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="Orientation" value="portrait"/>
+  <preference name="SplashScreenDelay" value="10"/>
+  <preference name="Fullscreen" value="true"/>
+</widget>

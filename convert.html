@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Number System Conversion">
+    <meta name="keywords" content="binary, decimal, hexadecimal, octal, conversion">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Nick Ndeda">
+</head>
+<body>
+    <header>
+        <h1>Number System Converter</h1>
+        <nav>
+            <ul>
+                <li><a href="https://byjus.com/maths/number-system-conversion/">Home</a></li>
+                <li><a href="convert.html">Convert</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="converter">
+            <h2>Convert Between Number Systems</h2>
+            <form id="conversionForm">
+                <label for="inputValue">Enter Value:</label>
+                <input type="text" id="inputValue" required><br>
+
+                <label for="fromBase">From:</label>
+                <select id="fromBase">
+                    <option value="2">Binary</option>
+                    <option value="8">Octal</option>
+                    <option value="10" selected>Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                </select><br>
+
+                <label for="toBase">To:</label>
+                <select id="toBase">
+                    <option value="2">Binary</option>
+                    <option value="8">Octal</option>
+                    <option value="10" selected>Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                </select><br>
+
+                <button type="submit">Convert</button>
+            </form>
+
+            <div id="result" class="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GROUP WORK. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
